@@ -22,7 +22,7 @@ export const postFormatter = {
 
   thumbnail: (itemData) => {
     if (!_.get(itemData, "thumbnail"))
-      return "https://placehold.jp/30/DCDCDC/000000/400x200.png?text=ahphong+image";
+      return "https://placehold.jp/30/DCDCDC/000000/400x200.png?text=placeholder+image";
     return _.get(itemData, "thumbnail.url", "");
   },
 };

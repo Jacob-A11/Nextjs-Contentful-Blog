@@ -49,7 +49,7 @@ const Header = () => {
               {
                 matcher: (props) => props === "dark",
                 render: () => (
-                  <Link href={"https://github.com/anhphong-2010"}>
+                  <Link href={"#"}>
                     {gstyles.icons({
                       name: "github",
                       size: 20,
@@ -61,7 +61,7 @@ const Header = () => {
               {
                 matcher: (props) => props === "light",
                 render: () => (
-                  <Link href={"https://github.com/anhphong-2010"}>
+                  <Link href={"#"}>
                     {gstyles.icons({
                       name: "github",
                       size: 20,

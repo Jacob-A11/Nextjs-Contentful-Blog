@@ -69,7 +69,7 @@ export default function DemoComponent() {
       id: 1,
       type: "success",
       text: "Chúc mừng {{ user }} đã trúng Iphone 1 4",
-      payload: { name: "ahPhong" },
+      payload: { name: "User" },
     },
     {
       id: 2,

@@ -5,11 +5,11 @@ export const Config = {
     owner: "AP",
     title: "Next.js + Contentful blog site",
     domain: SITE_URL,
-    email: "anhphongnw.2010@gmail.com",
+    email: "",
   },
   pageMeta: {
     openGraph: {
-      twitterUser: "Anh Phong Hua",
+      twitterUser: "",
     },
     home: {
       url: SITE_URL,
